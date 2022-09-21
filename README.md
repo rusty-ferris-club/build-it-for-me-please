@@ -10,8 +10,6 @@ This can be:
 * Something you want to tag-team with us and build
 
 Examples:
-
-* ״A command line to export CSV data from Notion and push it to Google Sheets. I volunteer at a shelter and this is how we can export our financials, but we have no one technical to work with.״
-* ״I'm trying my first contribution to `<somthing open source project>`, but having a hard time figuring out what to do. `..some more background information..`. Can we tag team on this?״
-
-
+* "A command line to export CSV data from Notion and push it to Google Sheets. I volunteer at a shelter and this is how we can export our financials, but we have no one technical to work with."
+* "I'm trying my first contribution to <somthing open source project>, but having a hard time figuring out what to do. ..some more background information... Can we tag team on this?"
+  
