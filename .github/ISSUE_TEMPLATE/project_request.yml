@@ -1,0 +1,27 @@
+name: Project Request
+description: Suggest a cool project for us to work on
+title: "[project-request]: "
+labels: ["project"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate your request. Please be sure to include as much details & any resources if possible!
+  - type: input
+    id: contact
+    attributes:
+      label: How can we contact you?
+      description: Please provide an email
+      placeholder: your@email.com
+    validations:
+      required: true
+  - type: textarea
+    id: Suggestion
+    attributes:
+      label: Suggestion / Project Request
+      description: "Describe the project you would like us to work on. It should be something cool, but feasible to do in our free time, and provide value for others as an open source project. We like building CLIs, but not just CLIs :-)."
+      placeholder: Tell us your suggestion
+      value: "Your suggestion here"
+    validations:
+      required: true
+ 

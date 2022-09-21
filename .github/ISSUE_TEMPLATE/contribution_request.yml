@@ -1,0 +1,35 @@
+name: Contribution Request
+description: Suggest a contribution for a project
+title: "[contrib-request]: "
+labels: ["contrib"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate your request. Please be sure to include as much details & any resources if possible!
+  - type: input
+    id: contact
+    attributes:
+      label: How can we contact you?
+      description: Please provide an email
+      placeholder: your@email.com
+    validations:
+      required: true
+  - type: input
+    id: project
+    attributes:
+      label: Existing Project URL
+      description: Please tell us what project is this
+      placeholder: http://...
+    validations:
+      required: true
+  - type: textarea
+    id: Suggestion
+    attributes:
+      label: Suggestion / Request
+      description: Describe the code contribution you would like us to make, or to help you with. Include docs, issues, and background information
+      placeholder: Tell us your suggestion
+      value: "Your suggestion here"
+    validations:
+      required: true
+ 
