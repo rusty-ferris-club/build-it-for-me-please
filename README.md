@@ -18,4 +18,4 @@ We love open source, and we want to support the open source community. This is w
 
 ## How?
 
-You can [open an issue]() with a suggestion for a project or contribution.
+You can [open an issue](https://github.com/rusty-ferris-club/build-it-for-me-please/issues/new/choose) with a suggestion for a project or contribution.
